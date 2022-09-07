@@ -1,0 +1,76 @@
+
+/* Main page style*/
+@import url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
+* {
+    background-color: rgb(80, 214, 214);
+    font-family: 'Combo', cursive;
+}
+.links {
+    color:hsla(20, 80%, 50%, 0.8);
+    font-weight: 100;
+    
+}
+h1 {
+    text-align: center;
+    font-size: 70px;
+    font-weight: 100;
+    letter-spacing: 16px;
+    margin-left: 50px;
+    color:hsla(20, 80%, 50%, 0.8);
+}
+.index_li {
+    display: inline;
+    margin: 32px;
+    
+}
+.list {
+    text-align: center;
+    font-size: 42px;  
+}
+.odin {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: auto;
+    border: 2px solid hsla(20, 80%, 50%, 0.8);
+    border-radius: 14px;     
+}
+h2 {
+    font-size: 36px;
+    font-weight: 100;
+    text-align: center; 
+    color:hsla(20, 80%, 50%, 0.8); 
+}
+ol {
+    display: flex;
+    flex-direction: column;
+    list-style-type:none;
+    align-items: center;
+}
+h3 {
+    text-align: center;
+    font-size: 24px;
+    margin-left: 24px;
+    color:hsla(20, 80%, 50%, 0.8);
+}
+div {
+    display: flex;
+    justify-content: space-around;
+}
+p {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.return {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 30px;
+    
+}
+h4 {
+    display: flex;
+    justify-content: center;
+}
